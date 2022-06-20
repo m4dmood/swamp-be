@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+
+  mysql-swamp:
+    image: mysql:8.0.17
+    environment:
+      MYSQL_ROOT_PASSWORD: teamtech12
+      MYSQL_DATABASE: swamp
+    ports:
+      - "3308:3309"
